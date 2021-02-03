@@ -987,9 +987,9 @@ window.__require = function e(t, n, o) {
                         scale: .9
                     }).union().repeatForever().start()
                 }, t.prototype.update = function(e) {}, t.prototype.adsButtonFunc2 = function() {
-                    window.location.href = "https://www.qwas.top"
+                    window.location.href = "https://shisanyao.xyz"
                 }, t.prototype.bannerButtonFunc = function() {
-                    window.location.href = "https://www.qwas.top"
+                    window.location.href = "https://shisanyao.xyz"
                 }, t.prototype.ShowFailedUi = function(e, t) {
                     e = e * (window.difficulty[0] + 1);
                     t = t * (window.difficulty[0] + 1);
@@ -1009,7 +1009,7 @@ window.__require = function e(t, n, o) {
                     this.canClick && 0 == cc.find("Canvas/uiEffectPanel").childrenCount && a.default.Instance.RestartGame()
                 }, t.prototype.OnClickMoreGame = function() {
                     this.canClick && (this.moreGameBtn.off(cc.Node.EventType.TOUCH_START, this.OnClickMoreGame, this), this.canClick = !1, this.moreGameBtn.runAction(cc.sequence(cc.scaleTo(.1, 1.1), cc.scaleTo(.1, 1))), this.scheduleOnce(function() {
-                        window.location.href = "http://dxg.qwas.top"
+                        window.location.href = ""
                     }, .15))
                 }, t.prototype.GetContentByScore = function(e) {
                     var t = Math.ceil(e / 1500 * 94);
